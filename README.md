@@ -18,3 +18,8 @@ Este projeto é um exemplo simples de autenticação usando JWT (JSON Web Token)
 ```bash
 git clone https://github.com/SEU_USUARIO/flask-jwt-auth.git
 cd flask-jwt-auth
+```
+2. Instale as dependências
+```bash
+  pip install -r requirements.txt
+```
