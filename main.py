@@ -12,7 +12,7 @@ app = Flask(__name__)
 def home():
     return jsonify(message="Bem vindo ao auth com JWT via Flask!")
 
-@app.route('/login', methods=["GET"])
+@app.route('/login', methods=["POST"])
 def login():
     data = request.get_json()
 
